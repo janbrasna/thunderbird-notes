@@ -7,7 +7,7 @@ Notes are in a [YAML format](https://learnxinyminutes.com/docs/yaml/), with esr 
 To aid in editing these notes, you can preview changes to any of the .yml files with preview.py:
 
 ```
-python3 -m virtualenv .venv
+python3 -m venv .venv
 source .venv/bin/activate
 pip install -r requirements.txt
 python preview.py 52.0
